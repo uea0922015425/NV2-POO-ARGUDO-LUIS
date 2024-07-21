@@ -16,12 +16,18 @@ def mostrar_codigo(ruta_script):
 
 def mostrar_menu():
     # Define la ruta base donde se encuentra el dashboard.py
-    ruta_base = os.path.dirname(__file__)
+    ruta_base = os.path.dirname(_file_)
 
     opciones = {
-        '1': 'Unidad 1/1.2. Tecnicas de Programacion/1.2-1. Ejemplo Tecnicas de Programacion.py',
+        '1': 'SEMANA 2/SEMANA 2 POO.py',
+        '2': 'SEMANA 3/POO TAREA SEMANA 3.py/PROGRAMACION TRADICIONAL.py',
+        '3': 'SEMANA 4/EJERCICIO MUNDO REAL 2.py/EJRCICIO MUNDO REAL.py',
+        '4': 'SEMANA 5/TAREA.py',
+        '5': 'SEMANA 6/TAREA SEMANA6.py',
+        '6': 'SEMANA 7/TAREA 7.py',
+        '7': 'SEMANA 8/DASHBOARD 8.py'
         # Agrega aquí el resto de las rutas de los scripts
-    }
+ }
 
     while True:
         print("\nMenu Principal - Dashboard")
@@ -42,5 +48,5 @@ def mostrar_menu():
 
 
 # Ejecutar el dashboard
-if __name__ == "__main__":
-    mostrar_menu()
+if _name_ == "_main_":
+    mostrar_menu()
