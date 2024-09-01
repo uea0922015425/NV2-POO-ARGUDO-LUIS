@@ -25,8 +25,7 @@ def mostrar_menu():
         '4': 'SEMANA 5/TAREA.py',
         '5': 'SEMANA 6/TAREA SEMANA6.py',
         '6': 'SEMANA 7/TAREA 7.py',
-        '7': 'SEMANA 8/DASHBOARD 8.py'
-        # Agrega aquí el resto de las rutas de los scripts
+                # Agrega aquí el resto de las rutas de los scripts
  }
 
     while True:
